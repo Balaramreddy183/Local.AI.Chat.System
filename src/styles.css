@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+
+
+/* 
+@import '~bootstrap/dist/css/bootstrap.min.css';
+@import '~bootstrap-icons/font/bootstrap-icons.css'; */
+
+pre {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background: rgba(0, 0, 0, 0.05) !important;
+}
+
+pre code {
+    font-family: 'Fira Code', monospace !important;
+}
+
+.dark-theme {
+    background-color: #1a1a1a;
+    color: #ffffff;
+}
+
+.dark-theme .form-control {
+    background-color: #2d2d2d !important;
+    color: #ffffff;
+}
