@@ -1,10 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 
-
-/* 
-@import '~bootstrap/dist/css/bootstrap.min.css';
-@import '~bootstrap-icons/font/bootstrap-icons.css'; */
-
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/bootstrap-icons/font/bootstrap-icons.css';
 pre {
     padding: 1rem;
     border-radius: 0.5rem;
@@ -16,8 +13,8 @@ pre code {
 }
 
 .dark-theme {
-    background-color: #1a1a1a;
-    color: #ffffff;
+    background-color: #0f172a;
+    color: #f1f5f9;
 }
 
 .dark-theme .form-control {
